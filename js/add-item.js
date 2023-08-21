@@ -17,7 +17,6 @@ function makeItemList(itemId, titleId, priceId) {
         li.classList.add(itemId);
         listItem.appendChild(li);
         
-
         
         itemCount++;
         totalPrice += prices;

@@ -24,9 +24,10 @@
             </div>
         </section>
     </header>
-    <main class="flex flex-col pt-12 lg:flex-row  lg:mx-32">
+    <!-- <main class="flex flex-col justify-between pt-12 lg:flex-row lg:mx-32"> -->
+    <main class="grid grid-cols-1 justify-between pt-12 lg:grid-cols-4  lg:ml-32 mr-16">
         <!-- card section  -->
-        <section class="grid grid-cols-1 w-3/4">
+        <section class="col-span-3  ">
             <div>
                 <h1 class="font-bold text-2xl my-6"> Kitchenware </h1>
                 <div class="flex flex-col lg:flex-row gap-6">
@@ -217,11 +218,12 @@
 
         <!-- calculation section  -->
         <section class="mx-5 mt-24 text-lg font-semibold">
-            <div class="bg-white py-8 mb-5 px-4 rounded-md">
+            <div class="bg-white py-8 mb-5 px-4 rounded-md w-full">
                 <h1>Have coupon?</h1>
-                <div class="flex mt-6">
-                    <input id="input" class="border-2 rounded-lg px-5" type="text" placeholder="Coupon code ">
-                    <button id="apply-btn" class="btn bg-[#E527B2] rounded-lg text-white" disabled>Apply</button>
+                <!-- <div class="flex flex-col gap-4 lg:flex-row mt-6 "> -->
+                <div class="flex" >
+                    <input id="input" class="border-2 rounded-lg px-5 w-36 text-base" type="text" placeholder="Coupon code ">
+                    <button id="apply-btn" class="btn bg-[#E527B2] rounded-lg text-white text-base  " disabled>Apply</button>
                 </div>
             </div>
             <div class="bg-white pt-6">
